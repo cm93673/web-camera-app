@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Camera App</title>
+    <style>
+        video, canvas {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Camera App</h1>
+    <video id="camera-stream" autoplay></video>
+    <button id="capture-btn">Capture Photo</button>
+    <canvas id="photo-canvas" style="display:none;"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
